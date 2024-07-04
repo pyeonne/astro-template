@@ -32,9 +32,13 @@
     "eslint-plugin-perfectionist": "^2.11.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.7",
+    "postcss-html": "^1.7.0",
     "prettier": "^3.3.2",
     "prettier-plugin-astro": "^0.14.0",
-    "prettier-plugin-tailwindcss": "^0.6.5"
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "stylelint": "^16.6.1",
+    "stylelint-config-idiomatic-order": "^10.0.0",
+    "stylelint-config-standard": "^36.0.1"
   },
   "config": {
     "commitizen": {

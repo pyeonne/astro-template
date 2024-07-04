@@ -1,0 +1,22 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-idiomatic-order"],
+  "rules": {
+    "block-no-empty": null,
+    "declaration-property-unit-allowed-list": {
+      "/^border/": ["px"],
+      "/^padding|^gap/": ["rem"]
+    },
+    "unit-allowed-list": ["rem", "ms", "%", "px", "deg"],
+    "color-named": "never",
+    "color-no-hex": true,
+    "function-disallowed-list": ["rgb", "hwb", "lch"],
+    "selector-max-id": 0,
+    "custom-property-empty-line-before": "never"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.astro"],
+      "customSyntax": "postcss-html"
+    }
+  ]
+}
